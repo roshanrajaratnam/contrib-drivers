@@ -36,7 +36,7 @@ import com.google.android.things.contrib.driver.motorhat.MotorHat;
 MotorHat mMotorHat;
 
 try {
-    mMotorHat = new NumericDisplay(I2cBusName);
+    mMotorHat = new MotorHat(I2cBusName);
 } catch (IOException e) {
     // couldn't configure the display...
 }
